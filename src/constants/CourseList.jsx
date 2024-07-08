@@ -1,0 +1,86 @@
+import {
+  FaMicrosoft,
+  FaGoogle,
+  FaAmazon,
+  FaSalesforce,
+  FaFacebook,
+  FaApple,
+} from "react-icons/fa6";
+import { SiAdobe, SiIbm } from "react-icons/si";
+
+const CourseList = [
+  {
+    image: "assets/courses/microsoft-project-management.jpg",
+    logo: <FaMicrosoft />,
+    company: "Microsoft",
+    title: "Microsoft Project Management",
+    rating: 3.9,
+    description: "Beginner, 4 Months",
+    price: 499,
+  },
+  {
+    image: "assets/courses/google-data-analytics.jpg",
+    logo: <FaGoogle />,
+    company: "Google",
+    title: "Google Data Analytics",
+    rating: 4.8,
+    description: "Beginner, 6 Months",
+    price: 599,
+  },
+  {
+    image: "assets/courses/aws-cloud-practitioner.jpg",
+    logo: <FaAmazon />,
+    company: "Amazon",
+    title: "AWS Cloud Practitioner",
+    rating: 4.6,
+    description: "Beginner, 3 Months",
+    price: 399,
+  },
+  {
+    image: "assets/courses/facebook-digital-marketing.jpg",
+    logo: <FaFacebook />,
+    company: "Facebook",
+    title: "Facebook Digital Marketing",
+    rating: 4.5,
+    description: "Intermediate, 5 Months",
+    price: 549,
+  },
+  {
+    image: "assets/courses/apple-ios-development.jpg",
+    logo: <FaApple />,
+    company: "Apple",
+    title: "Apple iOS Development",
+    rating: 4.7,
+    description: "Intermediate, 7 Months",
+    price: 699,
+  },
+  {
+    image: "assets/courses/adobe-photoshop-masterclass.jpg",
+    logo: <SiAdobe />,
+    company: "Adobe",
+    title: "Adobe Photoshop Masterclass",
+    rating: 4.2,
+    description: "Beginner, 2 Months",
+    price: 299,
+  },
+  {
+    image: "assets/courses/ibm-data-science.jpg",
+    logo: <SiIbm />,
+    company: "IBM",
+    title: "IBM Data Science",
+    rating: 4.9,
+    description: "Beginner, 9 Months",
+    price: 799,
+  },
+  {
+    image: "assets/courses/salesforce-administration.jpg",
+    logo: <FaSalesforce />,
+    company: "Salesforce",
+    title: "Salesforce Administration",
+    rating: 4.3,
+    description: "Intermediate, 4 Months",
+    price: 459,
+  },
+];
+
+export default CourseList;
