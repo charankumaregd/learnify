@@ -28,6 +28,7 @@ const Footer = () => {
                 key={key}
                 href={`https://${key}.com`}
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-500 hover:text-[#407BFF]"
               >
                 {SocialIcons[key]}

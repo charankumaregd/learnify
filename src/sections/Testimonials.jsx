@@ -27,7 +27,7 @@ const Testimonials = () => {
               <p className="text-justify">{text}</p>
             </div>
             <div className="flex gap-4 items-center">
-              <img src={image} className="rounded-full h-12 w-12" />
+              <img src={image} alt={image} className="rounded-full h-12 w-12" />
               <div className="flex flex-col">
                 <p className="font-semibold">{name}</p>
                 <p className="text-sm text-black/50">{title}</p>

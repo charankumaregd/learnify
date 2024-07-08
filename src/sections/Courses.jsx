@@ -7,7 +7,7 @@ const Courses = () => {
   const [btnText, setBtnText] = useState("Show 4 More");
 
   const handleClick = () => {
-    if (maxIndex == 4) {
+    if (maxIndex === 4) {
       setMaxIndex(8);
       setBtnText("Show Less");
     } else {

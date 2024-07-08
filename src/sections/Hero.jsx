@@ -28,7 +28,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex md:flex-grow md:flex-1 items-center justify-center">
-          <img src="assets/hero-image.svg" className="rounded-xl max-w-sm" />
+          <img
+            src="assets/hero-image.svg"
+            alt="hero-image"
+            className="rounded-xl max-w-sm"
+          />
         </div>
       </div>
       <div className="flex flex-col gap-8 justify-center items-center">
@@ -44,6 +48,7 @@ const Hero = () => {
               key={key}
               href={`https://${key}.com`}
               target="_blank"
+              rel="noreferrer"
               className="border-2 px-4 py-2 rounded-lg text-gray-600 flex gap-4 justify-center items-center"
             >
               {collaborators[key]}
